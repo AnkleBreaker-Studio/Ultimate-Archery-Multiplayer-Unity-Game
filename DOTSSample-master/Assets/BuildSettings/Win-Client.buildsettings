@@ -1,0 +1,23 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-53329cb030ec042419e0a8b2387da5c7-93214019566545601-0"
+    ],
+    "Components": [{
+        "$type": "Unity.Build.Common.ClassicBuildProfile, Unity.Build.Common",
+        "Target": 19,
+        "Configuration": 2,
+        "Pipeline": "GlobalObjectId_V1-1-99fe1e2a22b18e14d9dd5dacc75a0212-93214019566545601-0",
+        "ExcludedAssemblies": []
+    }, {
+        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+        "BuildCurrentScene": true,
+        "Scenes": [
+            "GlobalObjectId_V1-1-b5639cc1d4ac59a4b941da96ee6f432c-102900000-0",
+            "GlobalObjectId_V1-1-ecb32db0e4adddb478e4538a654f1900-102900000-0",
+            "GlobalObjectId_V1-1-b9b043c0e2a8d9b44b6f8cb87c71bfa8-102900000-0",
+            "GlobalObjectId_V1-1-2acb9c506a7d79e4390615dddc5520a9-102900000-0",
+            "GlobalObjectId_V1-1-23c95d5ebf1f8d349a5645491bd1d7c3-102900000-0",
+            "GlobalObjectId_V1-1-e5553817e8623034090ad659e20b7e49-102900000-0"
+        ]
+    }]
+}
