@@ -1,4 +1,5 @@
-﻿using Unity.Physics;
+﻿using Unity.Burst;
+using Unity.Physics;
 
 namespace PoonGaloreECS    
 {
@@ -36,27 +37,31 @@ namespace PoonGaloreECS
         
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
-            var a = dstManager.AddComponentData<GunData>(entity, new GunData
+            var gunComponentData = new GunData
             {
                 Bullet = conversionSystem.GetPrimaryEntity(bullet),
                 Strength = shootStrength,
                 Rate = shootRate,
                 AutoFire = autoFire,
                 IsFiring = false
-            });
+            };
+
+            dstManager.AddComponentData(entity, gunComponentData);
         }
     }
     
-    public class PlayerShootingSystem : ComponentSystem
-    {
-        protected override void OnUpdate()
+        public class PlayerShootingSystem : ComponentSystem
         {
+            private CollisionEvent hi;
+            protected override void OnUpdate()
+        {
+            
             var fixedDeltaTime = Time.fixedDeltaTime;
-
+    
             Entities.ForEach((ref LocalToWorld gunTransform, ref Rotation gunRotation, ref GunData gunData) =>
             {
                 gunData.ShotDuration += fixedDeltaTime;
-
+    
                 if (!(gunData.Rate < gunData.ShotDuration) ||
                     (gunData.AutoFire ? !Input.GetKey(KeyCode.Mouse0) : !Input.GetKeyDown(KeyCode.Mouse0))) return;
                 
@@ -72,15 +77,22 @@ namespace PoonGaloreECS
                         Angular = float3.zero
                     };
 
+                    var lifeTime = new LifeTime { Value = 1 };
+                    
+                    //sets existing entity components
                     PostUpdateCommands.SetComponent(bullet, position);
                     PostUpdateCommands.SetComponent(bullet, rotation);
                     PostUpdateCommands.SetComponent(bullet, velocity);
-
+                    
+                    //adds non existing components to entity, things that are not already on that prefab that is converted into an entity
+                    PostUpdateCommands.AddComponent(bullet, lifeTime);
+    
                     gunData.IsFiring = true;
                 }
-
+    
                 gunData.ShotDuration = 0;
                 gunData.IsFiring = false;
+                
             });
         }
     }
