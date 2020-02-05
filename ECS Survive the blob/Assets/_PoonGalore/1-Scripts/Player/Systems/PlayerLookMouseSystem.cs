@@ -11,7 +11,7 @@
     {
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
-            Entities.ForEach((ref Rotation rotation, ref Translation trans, ref LookMouseData data, ref Parent parent) =>
+            Entities.ForEach((ref Rotation rotation, ref Translation trans, ref PlayerLookMouseData data, ref Parent parent) =>
             {
                 Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             
