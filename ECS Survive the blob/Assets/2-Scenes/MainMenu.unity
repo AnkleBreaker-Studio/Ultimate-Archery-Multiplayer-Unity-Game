@@ -338,7 +338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -751
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -415,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: aspectRatio
-      value: 6.366197
+      value: 2.8873239
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: mFontSize
@@ -443,7 +443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1332655646, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: onFinished.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1332655646, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: ifDisabledOnPlay
@@ -460,7 +460,7 @@ PrefabInstance:
     - target: {fileID: 1332655646, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: onFinished.Array.data[0].mTarget
       value: 
-      objectReference: {fileID: 1707867447}
+      objectReference: {fileID: 0}
     - target: {fileID: 1332655646, guid: 7c3a28b051e872b448d4808cfcf9199c, type: 3}
       propertyPath: onFinished.Array.data[0].mMethodName
       value: PlayForward
@@ -497,31 +497,35 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.99583125
-      value: 0.0023566913
-      inSlope: -3.614101
-      outSlope: -3.614101
-      tangentMode: 0
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.053717114
+      inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  ignoreTimeScale: 1
+  ignoreTimeScale: 0
   delay: 0
   duration: 1
   steeperCurves: 0
   tweenGroup: 1
   useFixedUpdate: 0
   onFinished:
+  - mTarget: {fileID: 1707867447}
+    mMethodName: PlayReverse
+    mParameters: []
+    oneShot: 0
   - mTarget: {fileID: 1707867447}
     mMethodName: PlayReverse
     mParameters: []
@@ -543,6 +547,7 @@ GameObject:
   - component: {fileID: 1733348726}
   - component: {fileID: 1733348725}
   - component: {fileID: 1733348724}
+  - component: {fileID: 1733348728}
   m_Layer: 8
   m_Name: UI Root
   m_TagString: Untagged
@@ -654,6 +659,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733348728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733348723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6929f67a9d32ca24ba5915ab2e8754ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2003144779
 GameObject:
   m_ObjectHideFlags: 0
