@@ -6,8 +6,8 @@ using UnityEngine;
 [GenerateAuthoringComponent]
 public struct JumpData : IComponentData
 {
-    public bool isOnGround;
-    public float jumpPower;
+    public bool IsOnGround;
+    public float JumpPower;
 }
 
 [GenerateAuthoringComponent]
