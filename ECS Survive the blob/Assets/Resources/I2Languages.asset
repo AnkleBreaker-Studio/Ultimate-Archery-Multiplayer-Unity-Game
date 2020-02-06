@@ -17,13 +17,53 @@ MonoBehaviour:
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 0
     mTerms:
+    - Term: MenuOptionsButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Options
+      - Les Options
+      - Opciones
+      - Optionen
+      - Opties
+      - "\u062E\u064A\u0627\u0631\u0627\u062A"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MenuPlayButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Play
+      - Jouer
+      - Jugar
+      - Abspielen
+      - Speel
+      - "\u0644\u0639\u0628"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MenuQuitButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Quit
+      - Quitter
+      - Dejar
+      - Verlassen
+      - Ophouden
+      - "\u0627\u0633\u062A\u0642\u0627\u0644"
+      Flags: 000000000000
+      Languages_Touch: []
     - Term: Textbox
       TermType: 0
       Description: 
       Languages:
       - Hello
       - Bonjour
-      Flags: 0000
+      - Hola
+      - Hallo
+      - Hallo
+      - "\u0645\u0631\u062D\u0628\u0627"
+      Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
@@ -34,6 +74,18 @@ MonoBehaviour:
       Flags: 0
     - Name: French (France)
       Code: fr-FR
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Dutch
+      Code: nl
+      Flags: 0
+    - Name: Arabic
+      Code: ar
       Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
