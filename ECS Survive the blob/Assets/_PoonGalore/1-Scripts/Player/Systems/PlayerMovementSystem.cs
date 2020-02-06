@@ -1,16 +1,16 @@
-﻿namespace PoonGaloreECS
+﻿using System.Collections;
+using System.Collections.Generic;
+using Unity.Entities;
+using Unity.Jobs;
+using Unity.Mathematics;
+using Unity.Physics;
+using Unity.Physics.Extensions;
+using Unity.Physics.Systems;
+using Unity.Transforms;
+using UnityEngine;
+
+namespace PoonGaloreECS
 {
-    using System.Collections;
-    using System.Collections.Generic;
-    using Unity.Entities;
-    using Unity.Jobs;
-    using Unity.Mathematics;
-    using Unity.Physics;
-    using Unity.Physics.Extensions;
-    using Unity.Physics.Systems;
-    using Unity.Transforms;
-    using UnityEngine;
-    
     /// <summary>
     /// JobComponentSystem combines the ComponentSystem and is used for both single and multi-threaded code by utilizing Run() for main or Schedule(inputDeps) for multi.
     /// 
@@ -23,18 +23,21 @@
     /// To schedule multi threaded code you must return the job dependency (inputDeps) and call .Schedule(inputDeps).
     /// </summary>
     [AlwaysSynchronizeSystem]
+    /*
+    [DisableAutoCreation]
+    */
     public class PlayerMovementSystem : JobComponentSystem 
     {
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
-            var deltaTime = Time.DeltaTime;
+            var fixedDeltaTime = Time.fixedDeltaTime;
             
             Entities.ForEach((ref PhysicsVelocity velocity, ref PhysicsMass mass,/*ref Translation trans,*/ ref Rotation rot, in PlayerData data, in PlayerControlsInputData inputData) =>
             {
                 var direction = 0f;
                 
-                direction += Input.GetKey(inputData.MoveLeft) ? (-10 * data.Speed * deltaTime) : 0f;
-                direction += Input.GetKey(inputData.MoveRight) ? (10 * data.Speed * deltaTime) : 0f;
+                direction += Input.GetKey(inputData.MoveLeft) ? (-10 * data.Speed * fixedDeltaTime) : 0f;
+                direction += Input.GetKey(inputData.MoveRight) ? (10 * data.Speed * fixedDeltaTime) : 0f;
     
                 velocity.Linear.x = math.clamp(velocity.Linear.x, -data.Speed, data.Speed);
                 
