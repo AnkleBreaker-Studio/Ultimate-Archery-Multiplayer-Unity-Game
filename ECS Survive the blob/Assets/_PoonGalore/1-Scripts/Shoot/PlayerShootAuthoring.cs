@@ -52,7 +52,6 @@ namespace PoonGaloreECS
     
         public class PlayerShootingSystem : ComponentSystem
         {
-            private CollisionEvent hi;
             protected override void OnUpdate()
         {
             
