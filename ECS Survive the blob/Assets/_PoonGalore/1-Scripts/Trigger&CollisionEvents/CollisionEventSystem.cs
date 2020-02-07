@@ -27,11 +27,16 @@ namespace PoonGaloreECS
     {
         private BuildPhysicsWorld _buildPhysicsWorldSystem;
         private StepPhysicsWorld _stepPhysicsWorldSystem;
+        private EntityQuery _entityQuery;
 
         protected override void OnCreate() //getting world physics systems for schedule
         {
             _buildPhysicsWorldSystem = World.GetOrCreateSystem<BuildPhysicsWorld>();
             _stepPhysicsWorldSystem = World.GetExistingSystem<StepPhysicsWorld>();
+            _entityQuery = GetEntityQuery(new EntityQueryDesc
+            {
+                All = new ComponentType[] { typeof(BulletData) }
+            });
         }
         
         [BurstCompile]
@@ -44,14 +49,16 @@ namespace PoonGaloreECS
             private CollisionEventData _componentB;
             public void Execute(CollisionEvent collisionEvent)
             {
+                
+                
                 var entityA = collisionEvent.Entities.EntityA;
                 var entityB = collisionEvent.Entities.EntityB;
-                
+
                 if (!CollisionData.HasComponent(entityA)) return;
             
                 var entityAExists = CollisionData.Exists(entityA);
                 var entityBExists = CollisionData.Exists(entityB);
-            
+                
                 _componentA = CollisionData[entityA]; 
                 if (entityBExists) _componentB = CollisionData[entityB]; 
                 
