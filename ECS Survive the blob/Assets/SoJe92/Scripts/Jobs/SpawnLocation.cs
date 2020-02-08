@@ -32,10 +32,5 @@ namespace ECS.Scripts.Jobs
                 //CommandBuffer.AddComponent(index, entity, spawn);
             }
         }
-
-        public void Execute(ref Authoring.SpawnLocation c0, ref Authoring.Level c1)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

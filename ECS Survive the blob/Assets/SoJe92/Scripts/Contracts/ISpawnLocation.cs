@@ -9,7 +9,7 @@ namespace ECS.Scripts.Contracts
     {
         List<Spawn> Spawns { get; set; }
 
-        List<GameObject> Spawned { get; set; }
+        List<Spawn> Spawned { get; set; }
 
         int Limit { get; set; }
 
@@ -17,7 +17,7 @@ namespace ECS.Scripts.Contracts
 
         bool IsSpawning { get; set; }
 
-        List<GameObject> Start();
+        List<Spawn> Start();
 
         void End();
 
