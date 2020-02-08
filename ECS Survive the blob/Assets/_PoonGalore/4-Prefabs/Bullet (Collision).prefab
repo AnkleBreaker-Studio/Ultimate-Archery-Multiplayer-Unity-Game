@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8711721267584210250}
   - component: {fileID: 8711721267584210249}
   - component: {fileID: 8711721267584210261}
-  - component: {fileID: 1826898863}
   - component: {fileID: -3537899722798652109}
+  - component: {fileID: -5338232541597372724}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Bullet (Collision)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,14 +95,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShapeType: 0
+  m_ShapeType: 2
   m_PrimitiveCenter:
     x: 0.000000029802322
     y: 0
     z: 0.000000029802322
   m_PrimitiveSize:
     x: 1
-    y: 0.99999994
+    y: 1
     z: 1
   m_PrimitiveOrientation:
     Value:
@@ -115,9 +115,9 @@ MonoBehaviour:
     Radius: 0.5
     Axis: 2
   m_Cylinder:
-    Height: 0.99999994
+    Height: 1
     Radius: 0.5
-    Axis: 1
+    Axis: 2
   m_CylinderSideCount: 20
   m_SphereRadius: 0.5
   m_MinimumSkinnedVertexWeight: 0.1
@@ -151,7 +151,7 @@ MonoBehaviour:
       m_Value: 0001010101010101010101010101010101010101010101010101010101010101
     m_RaisesCollisionEvents:
       m_Override: 0
-      m_Value: 0
+      m_Value: 1
     m_CustomTags:
       m_Override: 0
       m_Value: 0000000000000000
@@ -205,19 +205,6 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
---- !u!114 &1826898863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8711721267584210260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 0
 --- !u!114 &-3537899722798652109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,3 +218,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 1
+--- !u!114 &-5338232541597372724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8711721267584210260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a510095f2dcf90646b55e7066bbea810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enable: 1
+  Impulse:
+    x: 0
+    y: 0
+    z: 0
