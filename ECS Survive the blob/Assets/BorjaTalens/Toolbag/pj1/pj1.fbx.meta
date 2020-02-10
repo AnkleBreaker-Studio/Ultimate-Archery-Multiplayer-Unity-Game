@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 7d2f909e6a6f9047f61e29d6405f0dd4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: anem a vore
+    100002: arma1
+    100004: cable
+    100006: Default
+    100008: default
+    100010: Default (1)
+    100012: Default (1) (1) (1)
+    100014: Default (1) 1
+    100016: Default (1) 2
+    100018: Default (1) 3
+    100020: Default (1) 4
+    100022: Default (2)
+    100024: Default (2) (1)
+    100026: Default 1
+    100028: Default 2
+    100030: defaultMat
+    100032: defaultMat (1) (1) (1)
+    100034: defaultMat (1) (1) (1) (1)
+    100036: defaultMat (1) (1) (1) 1
+    100038: defaultMat (1) (1) (1) 2
+    100040: defaultMat (1) (1) (1) 3
+    100042: defaultMat (1) (1) (1) 4
+    100044: defaultMat (1) (1) (1) 5
+    100046: defaultMat (1) (1) (1) 6
+    100048: defaultMat (1) (1) (1) 7
+    100050: defaultMat (1) (1) (1) 8
+    100052: defaultMat 1
+    100054: defaultMat 10
+    100056: defaultMat 11
+    100058: defaultMat 12
+    100060: defaultMat 13
+    100062: defaultMat 14
+    100064: defaultMat 15
+    100066: defaultMat 16
+    100068: defaultMat 17
+    100070: defaultMat 18
+    100072: defaultMat 19
+    100074: defaultMat 2
+    100076: defaultMat 20
+    100078: defaultMat 3
+    100080: defaultMat 4
+    100082: defaultMat 5
+    100084: defaultMat 6
+    100086: defaultMat 7
+    100088: defaultMat 8
+    100090: defaultMat 9
+    100092: Fog 1
+    100094: Group13693
+    100096: Group14965
+    100098: Group15438
+    100100: Group17351
+    100102: Group18186
+    100104: Group18669
+    100106: Group18713
+    100108: Group18965
+    100110: Group19032
+    100112: Group21226
+    100114: Group21284
+    100116: Group21836
+    100118: Group2399
+    100120: Group26077
+    100122: Group26077 1
+    100124: Group26077 1_MeshPart0
+    100126: Group26077 1_MeshPart1
+    100128: Group26077 1_MeshPart2
+    100130: Group26077 2
+    100132: Group26077 2_MeshPart0
+    100134: Group26077 2_MeshPart1
+    100136: Group26077 2_MeshPart2
+    100138: Group26077 3
+    100140: Group26077 3_MeshPart0
+    100142: Group26077 3_MeshPart1
+    100144: Group26077 3_MeshPart2
+    100146: Group26077 4
+    100148: Group26077 4_MeshPart0
+    100150: Group26077 4_MeshPart1
+    100152: Group26077 4_MeshPart2
+    100154: Group26077_MeshPart0
+    100156: Group26077_MeshPart1
+    100158: Group26077_MeshPart2
+    100160: Group28669
+    100162: Group31298
+    100164: Group36077
+    100166: Group36077 1
+    100168: Group36077 1_MeshPart0
+    100170: Group36077 1_MeshPart1
+    100172: Group36077 1_MeshPart2
+    100174: Group36077 2
+    100176: Group36077 2_MeshPart0
+    100178: Group36077 2_MeshPart1
+    100180: Group36077 2_MeshPart2
+    100182: Group36077 3
+    100184: Group36077 3_MeshPart0
+    100186: Group36077 3_MeshPart1
+    100188: Group36077 3_MeshPart2
+    100190: Group36077_MeshPart0
+    100192: Group36077_MeshPart1
+    100194: Group36077_MeshPart2
+    100196: Group38097
+    100198: Group38669
+    100200: Group43071
+    100202: Group43727
+    100204: Group44492
+    100206: Group44495
+    100208: Group48294
+    100210: Group50023
+    100212: Group50554
+    100214: Group52075
+    100216: Group55559
+    100218: Group56051
+    100220: Group5852
+    100222: Group63940
+    100224: Group64222
+    100226: initialShadingGroup
+    100228: initialShadingGroup 1
+    100230: initialShadingGroup 2
+    100232: Light 1
+    100234: Light 1 Copy
+    100236: Light 1 Copy 1
+    100238: Light 1 Copy Copy
+    100240: Light 1 Copy Copy 1
+    100242: Light 1 Copy Copy 2
+    100244: Light 1 Copy Copy Copy
+    100246: Light 1 Copy Copy Copy Copy
+    100248: Main Camera
+    100250: //RootNode
+    100252: pPlane1
+    100254: pPlane1 1
+    100256: pPlane1 2
+    100258: Render
+    100260: Rifle Aiming Idle
+    100262: SIMBOLO1
+    100264: SIMBOLO2
+    100266: SIMBOLO2 1
+    100268: SIMBOLO2 1_MeshPart0
+    100270: SIMBOLO2 1_MeshPart1
+    100272: SIMBOLO2 1_MeshPart2
+    100274: Sky
+    100276: SUELO
+    100278: SUELO Copy
+    100280: SUELO Copy Copy
+    100282: ZBrush_defualt_group
+    100284: ZBrush_defualt_group 1
+    400000: anem a vore
+    400002: arma1
+    400004: cable
+    400006: Default
+    400008: default
+    400010: Default (1)
+    400012: Default (1) (1) (1)
+    400014: Default (1) 1
+    400016: Default (1) 2
+    400018: Default (1) 3
+    400020: Default (1) 4
+    400022: Default (2)
+    400024: Default (2) (1)
+    400026: Default 1
+    400028: Default 2
+    400030: defaultMat
+    400032: defaultMat (1) (1) (1)
+    400034: defaultMat (1) (1) (1) (1)
+    400036: defaultMat (1) (1) (1) 1
+    400038: defaultMat (1) (1) (1) 2
+    400040: defaultMat (1) (1) (1) 3
+    400042: defaultMat (1) (1) (1) 4
+    400044: defaultMat (1) (1) (1) 5
+    400046: defaultMat (1) (1) (1) 6
+    400048: defaultMat (1) (1) (1) 7
+    400050: defaultMat (1) (1) (1) 8
+    400052: defaultMat 1
+    400054: defaultMat 10
+    400056: defaultMat 11
+    400058: defaultMat 12
+    400060: defaultMat 13
+    400062: defaultMat 14
+    400064: defaultMat 15
+    400066: defaultMat 16
+    400068: defaultMat 17
+    400070: defaultMat 18
+    400072: defaultMat 19
+    400074: defaultMat 2
+    400076: defaultMat 20
+    400078: defaultMat 3
+    400080: defaultMat 4
+    400082: defaultMat 5
+    400084: defaultMat 6
+    400086: defaultMat 7
+    400088: defaultMat 8
+    400090: defaultMat 9
+    400092: Fog 1
+    400094: Group13693
+    400096: Group14965
+    400098: Group15438
+    400100: Group17351
+    400102: Group18186
+    400104: Group18669
+    400106: Group18713
+    400108: Group18965
+    400110: Group19032
+    400112: Group21226
+    400114: Group21284
+    400116: Group21836
+    400118: Group2399
+    400120: Group26077
+    400122: Group26077 1
+    400124: Group26077 1_MeshPart0
+    400126: Group26077 1_MeshPart1
+    400128: Group26077 1_MeshPart2
+    400130: Group26077 2
+    400132: Group26077 2_MeshPart0
+    400134: Group26077 2_MeshPart1
+    400136: Group26077 2_MeshPart2
+    400138: Group26077 3
+    400140: Group26077 3_MeshPart0
+    400142: Group26077 3_MeshPart1
+    400144: Group26077 3_MeshPart2
+    400146: Group26077 4
+    400148: Group26077 4_MeshPart0
+    400150: Group26077 4_MeshPart1
+    400152: Group26077 4_MeshPart2
+    400154: Group26077_MeshPart0
+    400156: Group26077_MeshPart1
+    400158: Group26077_MeshPart2
+    400160: Group28669
+    400162: Group31298
+    400164: Group36077
+    400166: Group36077 1
+    400168: Group36077 1_MeshPart0
+    400170: Group36077 1_MeshPart1
+    400172: Group36077 1_MeshPart2
+    400174: Group36077 2
+    400176: Group36077 2_MeshPart0
+    400178: Group36077 2_MeshPart1
+    400180: Group36077 2_MeshPart2
+    400182: Group36077 3
+    400184: Group36077 3_MeshPart0
+    400186: Group36077 3_MeshPart1
+    400188: Group36077 3_MeshPart2
+    400190: Group36077_MeshPart0
+    400192: Group36077_MeshPart1
+    400194: Group36077_MeshPart2
+    400196: Group38097
+    400198: Group38669
+    400200: Group43071
+    400202: Group43727
+    400204: Group44492
+    400206: Group44495
+    400208: Group48294
+    400210: Group50023
+    400212: Group50554
+    400214: Group52075
+    400216: Group55559
+    400218: Group56051
+    400220: Group5852
+    400222: Group63940
+    400224: Group64222
+    400226: initialShadingGroup
+    400228: initialShadingGroup 1
+    400230: initialShadingGroup 2
+    400232: Light 1
+    400234: Light 1 Copy
+    400236: Light 1 Copy 1
+    400238: Light 1 Copy Copy
+    400240: Light 1 Copy Copy 1
+    400242: Light 1 Copy Copy 2
+    400244: Light 1 Copy Copy Copy
+    400246: Light 1 Copy Copy Copy Copy
+    400248: Main Camera
+    400250: //RootNode
+    400252: pPlane1
+    400254: pPlane1 1
+    400256: pPlane1 2
+    400258: Render
+    400260: Rifle Aiming Idle
+    400262: SIMBOLO1
+    400264: SIMBOLO2
+    400266: SIMBOLO2 1
+    400268: SIMBOLO2 1_MeshPart0
+    400270: SIMBOLO2 1_MeshPart1
+    400272: SIMBOLO2 1_MeshPart2
+    400274: Sky
+    400276: SUELO
+    400278: SUELO Copy
+    400280: SUELO Copy Copy
+    400282: ZBrush_defualt_group
+    400284: ZBrush_defualt_group 1
+    2300000: Group13693
+    2300002: Group14965
+    2300004: Group15438
+    2300006: Group17351
+    2300008: Group18186
+    2300010: Group18669
+    2300012: Group18713
+    2300014: Group18965
+    2300016: Group19032
+    2300018: Group21226
+    2300020: Group21284
+    2300022: Group21836
+    2300024: Group2399
+    2300026: Group26077 1_MeshPart0
+    2300028: Group26077 1_MeshPart1
+    2300030: Group26077 1_MeshPart2
+    2300032: Group26077 2_MeshPart0
+    2300034: Group26077 2_MeshPart1
+    2300036: Group26077 2_MeshPart2
+    2300038: Group26077 3_MeshPart0
+    2300040: Group26077 3_MeshPart1
+    2300042: Group26077 3_MeshPart2
+    2300044: Group26077 4_MeshPart0
+    2300046: Group26077 4_MeshPart1
+    2300048: Group26077 4_MeshPart2
+    2300050: Group26077_MeshPart0
+    2300052: Group26077_MeshPart1
+    2300054: Group26077_MeshPart2
+    2300056: Group28669
+    2300058: Group31298
+    2300060: Group36077 1_MeshPart0
+    2300062: Group36077 1_MeshPart1
+    2300064: Group36077 1_MeshPart2
+    2300066: Group36077 2_MeshPart0
+    2300068: Group36077 2_MeshPart1
+    2300070: Group36077 2_MeshPart2
+    2300072: Group36077 3_MeshPart0
+    2300074: Group36077 3_MeshPart1
+    2300076: Group36077 3_MeshPart2
+    2300078: Group36077_MeshPart0
+    2300080: Group36077_MeshPart1
+    2300082: Group36077_MeshPart2
+    2300084: Group38097
+    2300086: Group38669
+    2300088: Group43071
+    2300090: Group43727
+    2300092: Group44492
+    2300094: Group44495
+    2300096: Group48294
+    2300098: Group50023
+    2300100: Group50554
+    2300102: Group52075
+    2300104: Group55559
+    2300106: Group56051
+    2300108: Group5852
+    2300110: Group63940
+    2300112: Group64222
+    2300114: pPlane1
+    2300116: pPlane1 1
+    2300118: pPlane1 2
+    2300120: SIMBOLO2 1_MeshPart0
+    2300122: SIMBOLO2 1_MeshPart1
+    2300124: SIMBOLO2 1_MeshPart2
+    2300126: ZBrush_defualt_group
+    2300128: ZBrush_defualt_group 1
+    3300000: Group13693
+    3300002: Group14965
+    3300004: Group15438
+    3300006: Group17351
+    3300008: Group18186
+    3300010: Group18669
+    3300012: Group18713
+    3300014: Group18965
+    3300016: Group19032
+    3300018: Group21226
+    3300020: Group21284
+    3300022: Group21836
+    3300024: Group2399
+    3300026: Group26077 1_MeshPart0
+    3300028: Group26077 1_MeshPart1
+    3300030: Group26077 1_MeshPart2
+    3300032: Group26077 2_MeshPart0
+    3300034: Group26077 2_MeshPart1
+    3300036: Group26077 2_MeshPart2
+    3300038: Group26077 3_MeshPart0
+    3300040: Group26077 3_MeshPart1
+    3300042: Group26077 3_MeshPart2
+    3300044: Group26077 4_MeshPart0
+    3300046: Group26077 4_MeshPart1
+    3300048: Group26077 4_MeshPart2
+    3300050: Group26077_MeshPart0
+    3300052: Group26077_MeshPart1
+    3300054: Group26077_MeshPart2
+    3300056: Group28669
+    3300058: Group31298
+    3300060: Group36077 1_MeshPart0
+    3300062: Group36077 1_MeshPart1
+    3300064: Group36077 1_MeshPart2
+    3300066: Group36077 2_MeshPart0
+    3300068: Group36077 2_MeshPart1
+    3300070: Group36077 2_MeshPart2
+    3300072: Group36077 3_MeshPart0
+    3300074: Group36077 3_MeshPart1
+    3300076: Group36077 3_MeshPart2
+    3300078: Group36077_MeshPart0
+    3300080: Group36077_MeshPart1
+    3300082: Group36077_MeshPart2
+    3300084: Group38097
+    3300086: Group38669
+    3300088: Group43071
+    3300090: Group43727
+    3300092: Group44492
+    3300094: Group44495
+    3300096: Group48294
+    3300098: Group50023
+    3300100: Group50554
+    3300102: Group52075
+    3300104: Group55559
+    3300106: Group56051
+    3300108: Group5852
+    3300110: Group63940
+    3300112: Group64222
+    3300114: pPlane1
+    3300116: pPlane1 1
+    3300118: pPlane1 2
+    3300120: SIMBOLO2 1_MeshPart0
+    3300122: SIMBOLO2 1_MeshPart1
+    3300124: SIMBOLO2 1_MeshPart2
+    3300126: ZBrush_defualt_group
+    3300128: ZBrush_defualt_group 1
+    4300000: Group26077_MeshPart0
+    4300002: Group26077_MeshPart1
+    4300004: Group26077_MeshPart2
+    4300006: Group36077_MeshPart0
+    4300008: Group36077_MeshPart1
+    4300010: Group36077_MeshPart2
+    4300012: Group26077_MeshPart0
+    4300014: Group26077_MeshPart1
+    4300016: Group26077_MeshPart2
+    4300018: Group36077_MeshPart0
+    4300020: Group36077_MeshPart1
+    4300022: Group36077_MeshPart2
+    4300024: pPlane1
+    4300026: pPlane1
+    4300028: pPlane1
+    4300030: Group15438
+    4300032: Group17351
+    4300034: Group43727
+    4300036: Group56051
+    4300038: Group21836
+    4300040: Group52075
+    4300042: Group50023
+    4300044: Group63940
+    4300046: Group55559
+    4300048: Group48294
+    4300050: Group2399
+    4300052: Group50554
+    4300054: Group14965
+    4300056: Group31298
+    4300058: Group44492
+    4300060: Group44495
+    4300062: Group21226
+    4300064: Group21284
+    4300066: ZBrush_defualt_group
+    4300068: Group13693
+    4300070: Group64222
+    4300072: Group18669
+    4300074: Group28669
+    4300076: Group38669
+    4300078: Group18713
+    4300080: Group5852
+    4300082: ZBrush_defualt_group
+    4300084: Group18965
+    4300086: Group19032
+    4300088: Group43071
+    4300090: Group18186
+    4300092: Group38097
+    4300094: Group26077_MeshPart0
+    4300096: Group26077_MeshPart1
+    4300098: Group26077_MeshPart2
+    4300100: Group36077_MeshPart0
+    4300102: Group36077_MeshPart1
+    4300104: Group36077_MeshPart2
+    4300106: Group26077_MeshPart0
+    4300108: Group26077_MeshPart1
+    4300110: Group26077_MeshPart2
+    4300112: Group36077_MeshPart0
+    4300114: Group36077_MeshPart1
+    4300116: Group36077_MeshPart2
+    4300118: Group26077_MeshPart0
+    4300120: Group26077_MeshPart1
+    4300122: Group26077_MeshPart2
+    4300124: SIMBOLO2_MeshPart0
+    4300126: SIMBOLO2_MeshPart1
+    4300128: SIMBOLO2_MeshPart2
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 3ccca29d0c9a8487d911d5e569a7ba1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (1)
+    second: {fileID: 2100000, guid: 3e064f3009509e1c2886129be3443bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (1) (1) (1)
+    second: {fileID: 2100000, guid: adb6231da5c18d92ee3095cc2d3542cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (2)
+    second: {fileID: 2100000, guid: 5c1a18033dbc131b597651b72fa325cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (2) (1)
+    second: {fileID: 2100000, guid: 943cd22a28a522c1590c7c762ee46085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (2) (1) (1)
+    second: {fileID: 2100000, guid: edeaa59eabd8d8ea81d6c8bbe1fedc15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: 2792cf524bd8ead6852f807da302867d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat (1)
+    second: {fileID: 2100000, guid: c0074c55986dec796009f9bcc112e2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat (1) (1) (1)
+    second: {fileID: 2100000, guid: e7f50d3d62946a7fd84f1d3ffcee98fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat (1) (1) (1) (1)
+    second: {fileID: 2100000, guid: e7ab9bd16872434ad68a0b6f4f101b5a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
