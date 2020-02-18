@@ -4,16 +4,20 @@ using UnityEngine;
 
 namespace ECS.Scripts.Authoring
 {
-    [GenerateAuthoringComponent]
-    struct Spawn : ISpawn, IComponentData, IUnit
+    public struct Spawn : ISpawn, IComponentData, IUnit
     {
-        public Entity Unit { get; set; }
+        public Entity Unit;
 
-        public bool HasSpawned { get; set; }
+        public bool HasSpawned;
 
         public void Reset()
         {
             HasSpawned = false;
+        }
+
+        public Entity Execute()
+        {
+            return Unit;
         }
     }
 }

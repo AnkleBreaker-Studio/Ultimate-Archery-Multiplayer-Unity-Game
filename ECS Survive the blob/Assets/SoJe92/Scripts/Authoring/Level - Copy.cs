@@ -9,8 +9,7 @@ using UnityEngine;
 
 namespace ECS.Scripts.Authoring
 {
-    [GenerateAuthoringComponent]
-    public struct Level : IComponentData, ILevel
+    public class LevelBehaviour : MonoBehaviour, ILevel
     {
         public int Difficulty;
 
@@ -24,12 +23,8 @@ namespace ECS.Scripts.Authoring
 
         public void Start()
         {
+            IsComplete = false;
             InProgress = true;
-        }
-
-        public void Fail()
-        {
-            Failed = true;
         }
 
         public void Update()
@@ -45,10 +40,6 @@ namespace ECS.Scripts.Authoring
             InProgress = false;
             Failed = false;
             IsComplete = false;
-        }
-
-        public void Reset()
-        {
             Difficulty = 0;
         }
     }

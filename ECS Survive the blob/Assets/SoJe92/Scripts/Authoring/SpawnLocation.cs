@@ -2,60 +2,23 @@
 using ECS.Scripts.Contracts;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Collections;
 using Unity.Entities;
 using UnityEngine;
 
 namespace ECS.Scripts.Authoring
 {
-    [GenerateAuthoringComponent]
-    struct SpawnLocation : IComponentData, ISpawnLocation
+    [System.Serializable]
+    public struct SpawnLocation : IComponentData
     {
-        public List<Spawn> Spawns { get; set; }
+        public Entity entities;
 
-        public int Limit { get; set; }
+        public int Limit;
 
-        public bool IsRandom { get; set; }
+        public int Spawned;
 
-        public bool IsSpawning { get; set; }
-        public List<GameObject> Spawned { get; set; }
+        public bool IsRandom;
 
-        public void End()
-        {
-            IsSpawning = false;
-        }
-
-        public bool IsReady()
-        {
-            return Spawns.Any();
-        }
-
-        public void Reset()
-        {
-            Spawns.ForEach(x => x.Reset());
-            Spawned.Clear();
-        }
-
-        public List<GameObject> Start()
-        {
-            List<GameObject> spawned = new List<GameObject>();
-            while (IsSpawning)
-            {
-                for (var i = 0; i > Limit; i++)
-                {
-                    if (IsRandom)
-                    {
-                        System.Random random = new System.Random();
-                        i = random.Next(Spawns.Count);
-                    }
-                    var spawn = Spawns[i];
-                    //spawned.Add(spawn.Execute());
-                    //Spawned.Add(spawn);
-                    Spawns.Remove(spawn);
-                }
-            }
-            End();
-            return spawned;
-
-        }
+        public bool IsSpawning;
     }
 }

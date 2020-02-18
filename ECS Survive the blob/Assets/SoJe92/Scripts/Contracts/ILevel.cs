@@ -8,6 +8,5 @@ namespace ECS.Scripts.Contracts
 {
     public interface ILevel
     {
-        int Difficulty { get; set; }
     }
 }

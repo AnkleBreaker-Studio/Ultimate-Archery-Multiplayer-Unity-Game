@@ -1,22 +1,13 @@
 ﻿using Assets.SoJe92.Scripts.Authoring;
 using ECS.Scripts.Authoring;
 using System.Collections.Generic;
+using Unity.Entities;
 using UnityEngine;
 
 namespace ECS.Scripts.Contracts
 {
-    interface ISpawnLocation
+    public interface ISpawnLocation
     {
-        List<Spawn> Spawns { get; set; }
-
-        List<Spawn> Spawned { get; set; }
-
-        int Limit { get; set; }
-
-        bool IsRandom { get; set; }
-
-        bool IsSpawning { get; set; }
-
         List<Spawn> Start();
 
         void End();

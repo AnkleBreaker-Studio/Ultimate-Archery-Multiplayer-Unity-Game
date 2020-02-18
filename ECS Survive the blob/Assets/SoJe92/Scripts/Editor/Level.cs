@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Unity.Entities;
 
-namespace ECS.Scripts.Contracts
+namespace ECS.Scripts.Editor
 {
-    public interface ISpawn
+    public class Level
     {
-        void Reset();
-
-        Entity Execute();
+        //public List<Authoring.Level> editorObjects;
     }
 }
