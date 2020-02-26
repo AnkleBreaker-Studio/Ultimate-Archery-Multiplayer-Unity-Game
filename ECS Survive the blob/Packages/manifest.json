@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.havok.physics": "0.1.2-preview",
-    "com.unity.2d.animation": "3.1.0",
+    "com.unity.2d.animation": "3.1.1",
     "com.unity.2d.ik": "2.0.0-preview.1",
     "com.unity.2d.psdimporter": "2.1.0",
     "com.unity.2d.sprite": "1.0.0",
@@ -17,9 +17,9 @@
     "com.unity.quicksearch": "1.5.1",
     "com.unity.rendering.hybrid": "0.3.3-preview.11",
     "com.unity.shadergraph": "7.1.8",
-    "com.unity.test-framework": "1.1.9",
+    "com.unity.test-framework": "1.1.11",
     "com.unity.textmeshpro": "2.0.1",
-    "com.unity.timeline": "1.2.10",
+    "com.unity.timeline": "1.2.12",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
