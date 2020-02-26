@@ -1,53 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &100000
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 400000}
-  - component: {fileID: 11400000}
-  m_Layer: 0
-  m_Name: Mobile Cartoon Rock
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &400000
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
-  m_Name: 
+  m_Script: {fileID: 11500000, guid: 125b9f6e6906d6e4897a443b3c12729c, type: 3}
+  m_Name: Mobile Cartoon Soil
   m_EditorClassIdentifier: 
-  material: {fileID: 0}
+  material: {fileID: 2100000, guid: cac6a325f18ba4d9ba42ccb3826b398e, type: 2}
   mSprites:
   - name: Badge_paper
-    x: 498
-    y: 220
+    x: 497
+    y: 68
     width: 36
     height: 36
     borderLeft: 7
@@ -59,8 +28,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Badge_red
-    x: 498
-    y: 176
+    x: 497
+    y: 24
     width: 36
     height: 36
     borderLeft: 7
@@ -72,8 +41,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Banner_red_left
-    x: 559
-    y: 480
+    x: 939
+    y: 546
     width: 53
     height: 53
     borderLeft: 0
@@ -85,7 +54,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Banner_red_right
-    x: 940
+    x: 878
     y: 546
     width: 53
     height: 53
@@ -98,7 +67,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Banner_yellow_left
-    x: 498
+    x: 497
     y: 480
     width: 53
     height: 53
@@ -111,8 +80,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Banner_yellow_right
-    x: 879
-    y: 546
+    x: 558
+    y: 480
     width: 53
     height: 53
     borderLeft: 0
@@ -137,7 +106,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bar_blue
-    x: 91
+    x: 90
     y: 478
     width: 12
     height: 24
@@ -150,7 +119,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bar_green
-    x: 91
+    x: 90
     y: 510
     width: 12
     height: 24
@@ -163,7 +132,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bar_red
-    x: 91
+    x: 90
     y: 568
     width: 12
     height: 24
@@ -177,7 +146,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Bar_setting_green
     x: 74
-    y: 36
+    y: 64
     width: 20
     height: 20
     borderLeft: 7
@@ -189,7 +158,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bar_white
-    x: 91
+    x: 90
     y: 658
     width: 12
     height: 24
@@ -202,7 +171,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Bar_yellow
-    x: 91
+    x: 90
     y: 690
     width: 12
     height: 24
@@ -215,8 +184,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: ButtonBG
-    x: 294
-    y: 495
+    x: 293
+    y: 583
     width: 80
     height: 80
     borderLeft: 30
@@ -228,7 +197,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: ButtonIcons_Accept
-    x: 450
+    x: 449
     y: 613
     width: 62
     height: 50
@@ -241,7 +210,7 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 16
   - name: ButtonIcons_Achievement
-    x: 294
+    x: 293
     y: 123
     width: 49
     height: 69
@@ -249,25 +218,25 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 17
-    paddingRight: 16
+    paddingLeft: 18
+    paddingRight: 15
     paddingTop: 10
     paddingBottom: 3
   - name: ButtonIcons_Back
-    x: 439
-    y: 232
-    width: 44
+    x: 438
+    y: 108
+    width: 43
     height: 53
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 19
+    paddingLeft: 20
     paddingRight: 19
     paddingTop: 14
     paddingBottom: 15
   - name: ButtonIcons_Cancel
-    x: 564
+    x: 563
     y: 544
     width: 54
     height: 55
@@ -275,8 +244,8 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 14
-    paddingRight: 14
+    paddingLeft: 15
+    paddingRight: 13
     paddingTop: 14
     paddingBottom: 13
   - name: ButtonIcons_Decrease
@@ -288,13 +257,13 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 14
-    paddingRight: 14
+    paddingLeft: 16
+    paddingRight: 12
     paddingTop: 31
     paddingBottom: 31
   - name: ButtonIcons_Down
-    x: 747
-    y: 428
+    x: 497
+    y: 160
     width: 53
     height: 44
     borderLeft: 0
@@ -306,8 +275,8 @@ MonoBehaviour:
     paddingTop: 21
     paddingBottom: 17
   - name: ButtonIcons_DownArrow
-    x: 382
-    y: 137
+    x: 381
+    y: 77
     width: 46
     height: 52
     borderLeft: 0
@@ -319,7 +288,7 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 14
   - name: ButtonIcons_Download
-    x: 595
+    x: 656
     y: 607
     width: 54
     height: 56
@@ -327,12 +296,12 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 13
-    paddingRight: 15
+    paddingLeft: 15
+    paddingRight: 13
     paddingTop: 14
     paddingBottom: 12
   - name: ButtonIcons_Facebook
-    x: 382
+    x: 381
     y: 451
     width: 42
     height: 72
@@ -345,7 +314,7 @@ MonoBehaviour:
     paddingTop: 7
     paddingBottom: 3
   - name: ButtonIcons_Help
-    x: 382
+    x: 381
     y: 264
     width: 46
     height: 54
@@ -353,12 +322,12 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 18
-    paddingRight: 18
+    paddingLeft: 20
+    paddingRight: 16
     paddingTop: 16
     paddingBottom: 12
   - name: ButtonIcons_HighScore
-    x: 620
+    x: 680
     y: 480
     width: 52
     height: 53
@@ -371,8 +340,8 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 12
   - name: ButtonIcons_HorizontalSlider
-    x: 624
-    y: 426
+    x: 497
+    y: 372
     width: 54
     height: 46
     borderLeft: 0
@@ -384,7 +353,7 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 19
   - name: ButtonIcons_Increase
-    x: 688
+    x: 687
     y: 545
     width: 54
     height: 54
@@ -397,7 +366,7 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: ButtonIcons_Info
-    x: 626
+    x: 625
     y: 545
     width: 54
     height: 54
@@ -410,8 +379,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: ButtonIcons_LastLevel
-    x: 439
-    y: 354
+    x: 438
+    y: 293
     width: 50
     height: 52
     borderLeft: 0
@@ -423,7 +392,7 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 14
   - name: ButtonIcons_LeaderBoard
-    x: 520
+    x: 519
     y: 617
     width: 67
     height: 46
@@ -436,8 +405,8 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: ButtonIcons_LeftArrow
-    x: 498
-    y: 366
+    x: 497
+    y: 264
     width: 52
     height: 46
     borderLeft: 0
@@ -449,7 +418,7 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: ButtonIcons_LevelSelect
-    x: 921
+    x: 800
     y: 481
     width: 52
     height: 52
@@ -462,7 +431,7 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: ButtonIcons_Like
-    x: 750
+    x: 749
     y: 545
     width: 53
     height: 54
@@ -475,7 +444,7 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 16
   - name: ButtonIcons_Lock
-    x: 382
+    x: 381
     y: 197
     width: 41
     height: 59
@@ -501,7 +470,7 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 19
   - name: ButtonIcons_MainMenu
-    x: 382
+    x: 381
     y: 607
     width: 60
     height: 56
@@ -514,7 +483,7 @@ MonoBehaviour:
     paddingTop: 12
     paddingBottom: 14
   - name: ButtonIcons_Menu
-    x: 558
+    x: 497
     y: 426
     width: 58
     height: 46
@@ -527,7 +496,7 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: ButtonIcons_Multiplayer
-    x: 811
+    x: 810
     y: 552
     width: 60
     height: 47
@@ -553,21 +522,21 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 8
   - name: ButtonIcons_Next
-    x: 439
-    y: 293
-    width: 44
+    x: 438
+    y: 169
+    width: 43
     height: 53
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 19
+    paddingLeft: 20
     paddingRight: 19
     paddingTop: 14
     paddingBottom: 15
   - name: ButtonIcons_NextLevel
-    x: 439
-    y: 414
+    x: 438
+    y: 353
     width: 50
     height: 52
     borderLeft: 0
@@ -579,7 +548,7 @@ MonoBehaviour:
     paddingTop: 16
     paddingBottom: 14
   - name: ButtonIcons_Pause
-    x: 382
+    x: 381
     y: 18
     width: 46
     height: 51
@@ -592,20 +561,20 @@ MonoBehaviour:
     paddingTop: 17
     paddingBottom: 14
   - name: ButtonIcons_Refresh
-    x: 741
-    y: 480
-    width: 52
+    x: 438
+    y: 413
+    width: 51
     height: 53
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 15
-    paddingRight: 15
+    paddingLeft: 17
+    paddingRight: 14
     paddingTop: 16
     paddingBottom: 13
   - name: ButtonIcons_Restart
-    x: 861
+    x: 920
     y: 481
     width: 52
     height: 52
@@ -618,8 +587,8 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: ButtonIcons_RightArrow
-    x: 498
-    y: 312
+    x: 497
+    y: 318
     width: 52
     height: 46
     borderLeft: 0
@@ -631,7 +600,7 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 18
   - name: ButtonIcons_Settings
-    x: 294
+    x: 293
     y: 57
     width: 58
     height: 58
@@ -639,12 +608,12 @@ MonoBehaviour:
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 12
-    paddingRight: 12
+    paddingLeft: 13
+    paddingRight: 11
     paddingTop: 12
     paddingBottom: 12
   - name: ButtonIcons_Share
-    x: 657
+    x: 594
     y: 607
     width: 54
     height: 56
@@ -657,7 +626,7 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 13
   - name: ButtonIcons_Shop
-    x: 917
+    x: 916
     y: 612
     width: 59
     height: 51
@@ -670,7 +639,7 @@ MonoBehaviour:
     paddingTop: 18
     paddingBottom: 13
   - name: ButtonIcons_Sound
-    x: 439
+    x: 438
     y: 474
     width: 51
     height: 59
@@ -683,8 +652,8 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 9
   - name: ButtonIcons_Trash
-    x: 439
-    y: 169
+    x: 438
+    y: 230
     width: 42
     height: 55
     borderLeft: 0
@@ -696,7 +665,7 @@ MonoBehaviour:
     paddingTop: 13
     paddingBottom: 14
   - name: ButtonIcons_Twitter
-    x: 294
+    x: 293
     y: 428
     width: 70
     height: 59
@@ -709,8 +678,8 @@ MonoBehaviour:
     paddingTop: 10
     paddingBottom: 13
   - name: ButtonIcons_Up
-    x: 686
-    y: 428
+    x: 497
+    y: 212
     width: 53
     height: 44
     borderLeft: 0
@@ -722,8 +691,8 @@ MonoBehaviour:
     paddingTop: 19
     paddingBottom: 19
   - name: ButtonIcons_UpArrow
-    x: 382
-    y: 77
+    x: 381
+    y: 137
     width: 46
     height: 52
     borderLeft: 0
@@ -735,7 +704,7 @@ MonoBehaviour:
     paddingTop: 15
     paddingBottom: 15
   - name: ButtonIcons_Upload
-    x: 439
+    x: 438
     y: 541
     width: 55
     height: 58
@@ -748,20 +717,20 @@ MonoBehaviour:
     paddingTop: 11
     paddingBottom: 13
   - name: ButtonIcons_UserProfile
-    x: 439
-    y: 45
+    x: 980
+    y: 480
     width: 34
     height: 53
     borderLeft: 0
     borderRight: 0
     borderTop: 0
     borderBottom: 0
-    paddingLeft: 24
-    paddingRight: 24
+    paddingLeft: 25
+    paddingRight: 23
     paddingTop: 14
     paddingBottom: 15
   - name: ButtonIcons_VerticalSlider
-    x: 382
+    x: 381
     y: 326
     width: 46
     height: 54
@@ -774,9 +743,9 @@ MonoBehaviour:
     paddingTop: 14
     paddingBottom: 14
   - name: Buttons_Accept
-    x: 113
-    y: 311
-    width: 83
+    x: 383
+    y: 761
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -787,9 +756,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Achievement
-    x: 113
-    y: 401
-    width: 83
+    x: 293
+    y: 761
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -800,8 +769,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Back
-    x: 204
-    y: 401
+    x: 203
+    y: 761
     width: 82
     height: 82
     borderLeft: 0
@@ -814,8 +783,8 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Buttons_Cancel
     x: 113
-    y: 491
-    width: 83
+    y: 41
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -827,8 +796,8 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Buttons_Decrease
     x: 113
-    y: 581
-    width: 83
+    y: 131
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -839,8 +808,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Down
-    x: 204
-    y: 671
+    x: 113
+    y: 221
     width: 82
     height: 82
     borderLeft: 0
@@ -852,8 +821,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_DownArrow
-    x: 928
-    y: 761
+    x: 113
+    y: 311
     width: 82
     height: 82
     borderLeft: 0
@@ -865,8 +834,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Download
-    x: 838
-    y: 761
+    x: 113
+    y: 401
     width: 82
     height: 82
     borderLeft: 0
@@ -879,8 +848,8 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Buttons_Facebook
     x: 113
-    y: 671
-    width: 83
+    y: 491
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -891,8 +860,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Help
-    x: 658
-    y: 761
+    x: 113
+    y: 581
     width: 82
     height: 82
     borderLeft: 0
@@ -904,8 +873,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_HighScore
-    x: 568
-    y: 761
+    x: 113
+    y: 671
     width: 82
     height: 82
     borderLeft: 0
@@ -919,7 +888,7 @@ MonoBehaviour:
   - name: Buttons_HorizontalSlider
     x: 113
     y: 761
-    width: 83
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -932,7 +901,7 @@ MonoBehaviour:
   - name: Buttons_Increase
     x: 0
     y: 92
-    width: 83
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -945,7 +914,7 @@ MonoBehaviour:
   - name: Buttons_Info
     x: 0
     y: 182
-    width: 83
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -958,7 +927,7 @@ MonoBehaviour:
   - name: Buttons_LastLevel
     x: 0
     y: 272
-    width: 83
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -969,8 +938,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_LeaderBoard
-    x: 204
-    y: 41
+    x: 0
+    y: 362
     width: 82
     height: 82
     borderLeft: 0
@@ -982,8 +951,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_LeftArrow
-    x: 294
-    y: 671
+    x: 0
+    y: 452
     width: 82
     height: 82
     borderLeft: 0
@@ -996,8 +965,8 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Buttons_LevelSelect
     x: 0
-    y: 362
-    width: 83
+    y: 542
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1008,8 +977,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Like
-    x: 384
-    y: 671
+    x: 0
+    y: 632
     width: 82
     height: 82
     borderLeft: 0
@@ -1021,9 +990,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Lock
-    x: 0
-    y: 452
-    width: 83
+    x: 929
+    y: 852
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1034,9 +1003,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Mail
-    x: 0
-    y: 542
-    width: 83
+    x: 929
+    y: 942
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1047,9 +1016,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_MainMenu
-    x: 0
-    y: 632
-    width: 83
+    x: 923
+    y: 671
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1060,7 +1029,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Menu
-    x: 564
+    x: 833
     y: 671
     width: 82
     height: 82
@@ -1073,9 +1042,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Multiplayer
-    x: 929
-    y: 852
-    width: 83
+    x: 743
+    y: 671
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1086,7 +1055,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Mute
-    x: 744
+    x: 653
     y: 671
     width: 82
     height: 82
@@ -1099,7 +1068,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Next
-    x: 834
+    x: 563
     y: 671
     width: 82
     height: 82
@@ -1112,9 +1081,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_NextLevel
-    x: 929
-    y: 942
-    width: 83
+    x: 473
+    y: 671
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1125,7 +1094,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Pause
-    x: 924
+    x: 383
     y: 671
     width: 82
     height: 82
@@ -1138,9 +1107,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Refresh
-    x: 113
-    y: 221
-    width: 83
+    x: 293
+    y: 671
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1151,8 +1120,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Restart
-    x: 654
-    y: 671
+    x: 203
+    y: 41
     width: 82
     height: 82
     borderLeft: 0
@@ -1164,59 +1133,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_RightArrow
-    x: 474
-    y: 671
-    width: 82
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Settings
-    x: 295
-    y: 761
-    width: 83
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Share
-    x: 386
-    y: 761
-    width: 83
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Shop
-    x: 477
-    y: 761
-    width: 83
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Sound
-    x: 204
+    x: 203
     y: 131
     width: 82
     height: 82
@@ -1228,34 +1145,8 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Buttons_Trash
-    x: 204
-    y: 761
-    width: 83
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Twitter
-    x: 113
-    y: 41
-    width: 83
-    height: 82
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Buttons_Up
-    x: 204
+  - name: Buttons_Settings
+    x: 203
     y: 221
     width: 82
     height: 82
@@ -1267,8 +1158,86 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Buttons_Share
+    x: 203
+    y: 311
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons_Shop
+    x: 203
+    y: 401
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons_Sound
+    x: 203
+    y: 491
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons_Trash
+    x: 203
+    y: 581
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons_Twitter
+    x: 203
+    y: 671
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Buttons_Up
+    x: 923
+    y: 761
+    width: 82
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: Buttons_UpArrow
-    x: 748
+    x: 833
     y: 761
     width: 82
     height: 82
@@ -1281,8 +1250,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_Upload
-    x: 204
-    y: 581
+    x: 743
+    y: 761
     width: 82
     height: 82
     borderLeft: 0
@@ -1294,8 +1263,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_UserProfile
-    x: 204
-    y: 491
+    x: 653
+    y: 761
     width: 82
     height: 82
     borderLeft: 0
@@ -1307,9 +1276,9 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Buttons_VerticalSlider
-    x: 113
-    y: 131
-    width: 83
+    x: 563
+    y: 761
+    width: 82
     height: 82
     borderLeft: 0
     borderRight: 0
@@ -1320,8 +1289,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Check_badge
-    x: 498
-    y: 264
+    x: 497
+    y: 112
     width: 40
     height: 40
     borderLeft: 0
@@ -1333,10 +1302,10 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Check_Box
-    x: 871
-    y: 855
-    width: 41
-    height: 41
+    x: 293
+    y: 9
+    width: 40
+    height: 40
     borderLeft: 8
     borderRight: 8
     borderTop: 8
@@ -1346,8 +1315,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Check_red
-    x: 294
-    y: 8
+    x: 871
+    y: 855
     width: 40
     height: 41
     borderLeft: 11
@@ -1372,8 +1341,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_BG
-    x: 204
-    y: 311
+    x: 473
+    y: 761
     width: 82
     height: 82
     borderLeft: 23
@@ -1385,7 +1354,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_bomb
-    x: 382
+    x: 381
     y: 531
     width: 49
     height: 68
@@ -1398,7 +1367,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_coin
-    x: 801
+    x: 740
     y: 481
     width: 52
     height: 52
@@ -1411,7 +1380,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_diamond
-    x: 680
+    x: 619
     y: 481
     width: 53
     height: 52
@@ -1424,8 +1393,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_energy
-    x: 439
-    y: 106
+    x: 438
+    y: 45
     width: 40
     height: 55
     borderLeft: 0
@@ -1437,7 +1406,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_heart
-    x: 851
+    x: 850
     y: 611
     width: 58
     height: 52
@@ -1450,7 +1419,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_heart_slot
-    x: 785
+    x: 784
     y: 611
     width: 58
     height: 52
@@ -1463,7 +1432,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_lock
-    x: 294
+    x: 293
     y: 341
     width: 52
     height: 79
@@ -1476,7 +1445,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_shield
-    x: 382
+    x: 381
     y: 388
     width: 48
     height: 55
@@ -1489,7 +1458,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_skull
-    x: 719
+    x: 718
     y: 611
     width: 58
     height: 52
@@ -1502,8 +1471,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_star
-    x: 498
-    y: 420
+    x: 860
+    y: 481
     width: 52
     height: 52
     borderLeft: 0
@@ -1515,7 +1484,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Icon_timer
-    x: 502
+    x: 501
     y: 542
     width: 54
     height: 57
@@ -1580,7 +1549,7 @@ MonoBehaviour:
     paddingTop: 1
     paddingBottom: 1
   - name: Paper_BG_item
-    x: 294
+    x: 293
     y: 270
     width: 64
     height: 63
@@ -1606,7 +1575,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: PopupBG
-    x: 294
+    x: 293
     y: 200
     width: 62
     height: 62
@@ -1633,7 +1602,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Slot_sliced
     x: 74
-    y: 64
+    y: 36
     width: 20
     height: 20
     borderLeft: 8
@@ -1645,7 +1614,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: Slot_tiled
-    x: 91
+    x: 90
     y: 600
     width: 12
     height: 24
@@ -1697,8 +1666,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: TitleBG
-    x: 294
-    y: 583
+    x: 293
+    y: 495
     width: 80
     height: 80
     borderLeft: 30
@@ -1723,6 +1692,4 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   mPixelSize: 1
-  mReplacement: {fileID: 11400000, guid: 9797c068e0bad974e95e4faf47c8369b, type: 2}
-  mCoordinates: 0
-  sprites: []
+  mReplacement: {fileID: 0}

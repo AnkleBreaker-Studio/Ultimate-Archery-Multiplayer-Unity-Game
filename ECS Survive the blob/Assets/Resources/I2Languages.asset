@@ -17,6 +17,18 @@ MonoBehaviour:
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 0
     mTerms:
+    - Term: MenuLevelOne
+      TermType: 0
+      Description: 
+      Languages:
+      - Industrial Zone
+      - Zone Industrielle
+      - Zona Industrial
+      - Industriegebiet
+      - Industrie Gebied
+      - "\u0645\u0646\u0637\u0642\u0629 \u0635\u0646\u0627\u0639\u064A\u0629"
+      Flags: 000000000000
+      Languages_Touch: []
     - Term: MenuOptionsButton
       TermType: 0
       Description: 
@@ -63,6 +75,18 @@ MonoBehaviour:
       - Hallo
       - Hallo
       - "\u0645\u0631\u062D\u0628\u0627"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Refractive Font - Header
+      TermType: 10
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
       Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
