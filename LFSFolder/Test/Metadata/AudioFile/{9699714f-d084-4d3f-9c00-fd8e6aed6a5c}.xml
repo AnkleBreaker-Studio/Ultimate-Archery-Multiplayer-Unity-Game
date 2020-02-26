@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9699714f-d084-4d3f-9c00-fd8e6aed6a5c}">
+		<property name="assetPath">
+			<value>Prom.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>269.66204081632651</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{db3cf86a-000b-48a1-b174-38080e2342f1}</destination>
+		</relationship>
+	</object>
+</objects>
