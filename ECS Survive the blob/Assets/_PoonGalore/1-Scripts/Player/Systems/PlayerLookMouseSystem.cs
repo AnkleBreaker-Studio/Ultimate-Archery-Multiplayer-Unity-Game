@@ -14,18 +14,12 @@
         private float _angleRad;
         private float _angleDeg;
         private float3 _pos;
-        private Camera _camera;
-        
-        protected override void OnCreate()
-        {
-            _camera = Camera.main;
-        }
 
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
             Entities.ForEach((ref Rotation rotation, ref Translation trans, ref PlayerLookMouseData data, ref Parent parent) =>
             {
-                if (_camera != null) _mouseWorldPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
+                _mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 _parentTrans = GetComponentDataFromEntity<Translation>(true);
 
                 _pos = _parentTrans[parent.Value].Value;

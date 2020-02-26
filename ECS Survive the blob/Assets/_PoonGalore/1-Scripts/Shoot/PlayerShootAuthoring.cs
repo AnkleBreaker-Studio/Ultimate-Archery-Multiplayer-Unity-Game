@@ -28,6 +28,7 @@ namespace PoonGaloreECS
 
         public float shootStrength;
         public float shootRate;
+        
         public bool autoFire;
         
         public void DeclareReferencedPrefabs(List<GameObject> referencedPrefabs)
@@ -50,11 +51,9 @@ namespace PoonGaloreECS
         }
     }
     
-        public class PlayerShootingSystem : ComponentSystem
+    /*public class ShootingSystem : JobComponentSystem { 
+        protected override JobHandle OnUpdate(JobHandle inputDeps)
         {
-            protected override void OnUpdate()
-        {
-            
             var fixedDeltaTime = Time.fixedDeltaTime;
     
             Entities.ForEach((ref LocalToWorld gunTransform, ref Rotation gunRotation, ref GunData gunData) =>
@@ -66,6 +65,7 @@ namespace PoonGaloreECS
                 
                 if (gunData.Bullet != null)
                 {
+                    
                     var bullet = PostUpdateCommands.Instantiate(gunData.Bullet);
                         
                     var position = new Translation { Value = gunTransform.Position + gunTransform.Forward };
@@ -85,7 +85,52 @@ namespace PoonGaloreECS
                     
                     //adds non existing components to entity, things that are not already on that prefab that is converted into an entity
                     PostUpdateCommands.AddComponent(bullet, lifeTime);
+
+                    gunData.IsFiring = true;
+                }
     
+                gunData.ShotDuration = 0;
+                gunData.IsFiring = false;
+                
+            }).WithoutBurst().Run();
+
+            return default;
+        }
+    }*/
+
+        public class PlayerShootingSystem : ComponentSystem { 
+            protected override void OnUpdate()
+        {
+            var fixedDeltaTime = Time.fixedDeltaTime;
+    
+            Entities.ForEach((ref LocalToWorld gunTransform, ref Rotation gunRotation, ref GunData gunData) =>
+            {
+                gunData.ShotDuration += fixedDeltaTime;
+    
+                if (!(gunData.Rate < gunData.ShotDuration) ||
+                    (gunData.AutoFire ? !Input.GetKey(KeyCode.Mouse0) : !Input.GetKeyDown(KeyCode.Mouse0))) return;
+                
+                if (gunData.Bullet != null)
+                {
+                    var bullet = PostUpdateCommands.Instantiate(gunData.Bullet);
+                    
+                    var position = new Translation { Value = gunTransform.Position + gunTransform.Forward };
+                    var rotation = new Rotation { Value = gunRotation.Value };
+                    var velocity = new PhysicsVelocity
+                    {
+                        Linear = gunTransform.Forward * gunData.Strength,
+                        Angular = float3.zero
+                    };
+                    var lifeTime = new LifeTime { Value = 1 };
+
+                    //sets existing entity components
+                    PostUpdateCommands.SetComponent(bullet, position);
+                    PostUpdateCommands.SetComponent(bullet, rotation);
+                    PostUpdateCommands.SetComponent(bullet, velocity);
+
+                    //adds non existing components to entity, things that are not already on that prefab that is converted into an entity
+                    PostUpdateCommands.AddComponent(bullet, lifeTime);
+
                     gunData.IsFiring = true;
                 }
     
@@ -94,5 +139,5 @@ namespace PoonGaloreECS
                 
             });
         }
-    }
+        }
 }
