@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 8bbc4b79b5cf03158307c7dbece80772
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: decoracion-estrada
+    100002: defaultMat
+    100004: //RootNode
+    100006: entrada1:defaultMat1
+    100008: entrada1:defaultMat1 1
+    100010: entrada1:defaultMat1 10
+    100012: entrada1:defaultMat1 11
+    100014: entrada1:defaultMat1 12
+    100016: entrada1:defaultMat1 13
+    100018: entrada1:defaultMat1 14
+    100020: entrada1:defaultMat1 15
+    100022: entrada1:defaultMat1 16
+    100024: entrada1:defaultMat1 17
+    100026: entrada1:defaultMat1 18
+    100028: entrada1:defaultMat1 19
+    100030: entrada1:defaultMat1 2
+    100032: entrada1:defaultMat1 20
+    100034: entrada1:defaultMat1 21
+    100036: entrada1:defaultMat1 22
+    100038: entrada1:defaultMat1 23
+    100040: entrada1:defaultMat1 24
+    100042: entrada1:defaultMat1 25
+    100044: entrada1:defaultMat1 26
+    100046: entrada1:defaultMat1 27
+    100048: entrada1:defaultMat1 28
+    100050: entrada1:defaultMat1 29
+    100052: entrada1:defaultMat1 3
+    100054: entrada1:defaultMat1 30
+    100056: entrada1:defaultMat1 31
+    100058: entrada1:defaultMat1 32
+    100060: entrada1:defaultMat1 33
+    100062: entrada1:defaultMat1 34
+    100064: entrada1:defaultMat1 35
+    100066: entrada1:defaultMat1 36
+    100068: entrada1:defaultMat1 37
+    100070: entrada1:defaultMat1 38
+    100072: entrada1:defaultMat1 39
+    100074: entrada1:defaultMat1 4
+    100076: entrada1:defaultMat1 40
+    100078: entrada1:defaultMat1 41
+    100080: entrada1:defaultMat1 42
+    100082: entrada1:defaultMat1 43
+    100084: entrada1:defaultMat1 44
+    100086: entrada1:defaultMat1 45
+    100088: entrada1:defaultMat1 46
+    100090: entrada1:defaultMat1 47
+    100092: entrada1:defaultMat1 48
+    100094: entrada1:defaultMat1 49
+    100096: entrada1:defaultMat1 5
+    100098: entrada1:defaultMat1 50
+    100100: entrada1:defaultMat1 51
+    100102: entrada1:defaultMat1 52
+    100104: entrada1:defaultMat1 53
+    100106: entrada1:defaultMat1 54
+    100108: entrada1:defaultMat1 55
+    100110: entrada1:defaultMat1 56
+    100112: entrada1:defaultMat1 57
+    100114: entrada1:defaultMat1 58
+    100116: entrada1:defaultMat1 59
+    100118: entrada1:defaultMat1 6
+    100120: entrada1:defaultMat1 60
+    100122: entrada1:defaultMat1 61
+    100124: entrada1:defaultMat1 62
+    100126: entrada1:defaultMat1 63
+    100128: entrada1:defaultMat1 64
+    100130: entrada1:defaultMat1 7
+    100132: entrada1:defaultMat1 8
+    100134: entrada1:defaultMat1 9
+    100136: entrada1:Group20649
+    100138: entrada1:Group58236
+    100140: entrada1:Group58239
+    100142: entrada1:Group58240
+    100144: entrada1:Group58241
+    100146: entrada1:Group58242
+    100148: entrada1:Group58243
+    100150: entrada1:Group58244
+    100152: entrada1:Group58245
+    100154: entrada1:Group58246
+    100156: entrada1:Group58247
+    100158: entrada1:Group58248
+    100160: entrada1:Group58249
+    100162: entrada1:Group58250
+    100164: entrada1:Group58251
+    100166: entrada1:Group58252
+    100168: entrada1:Group58253
+    100170: entrada1:Group58254
+    100172: entrada1:Group58255
+    100174: entrada1:Group58256
+    100176: entrada1:Group58257
+    100178: entrada1:Group58258
+    100180: entrada1:Group58259
+    100182: entrada1:Group58260
+    100184: entrada1:Group58261
+    100186: entrada1:Group58262
+    100188: entrada1:Group58263
+    100190: entrada1:Group58264
+    100192: entrada1:Group58265
+    100194: entrada1:Group58266
+    100196: entrada1:Group58267
+    100198: entrada1:Group58268
+    100200: entrada1:Group58269
+    100202: entrada1:Group58270
+    100204: entrada1:Group58271
+    100206: entrada1:Group58272
+    100208: entrada1:Group58273
+    100210: entrada1:Group58274
+    100212: entrada1:Group58275
+    100214: entrada1:Group58276
+    100216: entrada1:Group58277
+    100218: entrada1:Group58278
+    100220: entrada1:Group58279
+    100222: entrada1:Group58280
+    100224: entrada1:Group58281
+    100226: entrada1:Group58282
+    100228: entrada1:Group58283
+    100230: entrada1:Group58284
+    100232: entrada1:Group58285
+    100234: entrada1:Group58286
+    100236: entrada1:Group58287
+    100238: entrada1:Group58288
+    100240: entrada1:Group58289
+    100242: entrada1:Group58290
+    100244: entrada1:Group58291
+    100246: entrada1:Group58292
+    100248: entrada1:Group58293
+    100250: entrada1:Group58294
+    100252: entrada1:Group58295
+    100254: entrada1:Group58296
+    100256: entrada1:Group58297
+    100258: entrada1:Group58298
+    100260: entrada1:Group58299
+    100262: entrada1:Group58300
+    100264: entrada1:Group58301
+    100266: entradauvbona
+    100268: Group52855
+    100270: Main Camera
+    100272: Render
+    100274: Sky
+    400000: decoracion-estrada
+    400002: defaultMat
+    400004: //RootNode
+    400006: entrada1:defaultMat1
+    400008: entrada1:defaultMat1 1
+    400010: entrada1:defaultMat1 10
+    400012: entrada1:defaultMat1 11
+    400014: entrada1:defaultMat1 12
+    400016: entrada1:defaultMat1 13
+    400018: entrada1:defaultMat1 14
+    400020: entrada1:defaultMat1 15
+    400022: entrada1:defaultMat1 16
+    400024: entrada1:defaultMat1 17
+    400026: entrada1:defaultMat1 18
+    400028: entrada1:defaultMat1 19
+    400030: entrada1:defaultMat1 2
+    400032: entrada1:defaultMat1 20
+    400034: entrada1:defaultMat1 21
+    400036: entrada1:defaultMat1 22
+    400038: entrada1:defaultMat1 23
+    400040: entrada1:defaultMat1 24
+    400042: entrada1:defaultMat1 25
+    400044: entrada1:defaultMat1 26
+    400046: entrada1:defaultMat1 27
+    400048: entrada1:defaultMat1 28
+    400050: entrada1:defaultMat1 29
+    400052: entrada1:defaultMat1 3
+    400054: entrada1:defaultMat1 30
+    400056: entrada1:defaultMat1 31
+    400058: entrada1:defaultMat1 32
+    400060: entrada1:defaultMat1 33
+    400062: entrada1:defaultMat1 34
+    400064: entrada1:defaultMat1 35
+    400066: entrada1:defaultMat1 36
+    400068: entrada1:defaultMat1 37
+    400070: entrada1:defaultMat1 38
+    400072: entrada1:defaultMat1 39
+    400074: entrada1:defaultMat1 4
+    400076: entrada1:defaultMat1 40
+    400078: entrada1:defaultMat1 41
+    400080: entrada1:defaultMat1 42
+    400082: entrada1:defaultMat1 43
+    400084: entrada1:defaultMat1 44
+    400086: entrada1:defaultMat1 45
+    400088: entrada1:defaultMat1 46
+    400090: entrada1:defaultMat1 47
+    400092: entrada1:defaultMat1 48
+    400094: entrada1:defaultMat1 49
+    400096: entrada1:defaultMat1 5
+    400098: entrada1:defaultMat1 50
+    400100: entrada1:defaultMat1 51
+    400102: entrada1:defaultMat1 52
+    400104: entrada1:defaultMat1 53
+    400106: entrada1:defaultMat1 54
+    400108: entrada1:defaultMat1 55
+    400110: entrada1:defaultMat1 56
+    400112: entrada1:defaultMat1 57
+    400114: entrada1:defaultMat1 58
+    400116: entrada1:defaultMat1 59
+    400118: entrada1:defaultMat1 6
+    400120: entrada1:defaultMat1 60
+    400122: entrada1:defaultMat1 61
+    400124: entrada1:defaultMat1 62
+    400126: entrada1:defaultMat1 63
+    400128: entrada1:defaultMat1 64
+    400130: entrada1:defaultMat1 7
+    400132: entrada1:defaultMat1 8
+    400134: entrada1:defaultMat1 9
+    400136: entrada1:Group20649
+    400138: entrada1:Group58236
+    400140: entrada1:Group58239
+    400142: entrada1:Group58240
+    400144: entrada1:Group58241
+    400146: entrada1:Group58242
+    400148: entrada1:Group58243
+    400150: entrada1:Group58244
+    400152: entrada1:Group58245
+    400154: entrada1:Group58246
+    400156: entrada1:Group58247
+    400158: entrada1:Group58248
+    400160: entrada1:Group58249
+    400162: entrada1:Group58250
+    400164: entrada1:Group58251
+    400166: entrada1:Group58252
+    400168: entrada1:Group58253
+    400170: entrada1:Group58254
+    400172: entrada1:Group58255
+    400174: entrada1:Group58256
+    400176: entrada1:Group58257
+    400178: entrada1:Group58258
+    400180: entrada1:Group58259
+    400182: entrada1:Group58260
+    400184: entrada1:Group58261
+    400186: entrada1:Group58262
+    400188: entrada1:Group58263
+    400190: entrada1:Group58264
+    400192: entrada1:Group58265
+    400194: entrada1:Group58266
+    400196: entrada1:Group58267
+    400198: entrada1:Group58268
+    400200: entrada1:Group58269
+    400202: entrada1:Group58270
+    400204: entrada1:Group58271
+    400206: entrada1:Group58272
+    400208: entrada1:Group58273
+    400210: entrada1:Group58274
+    400212: entrada1:Group58275
+    400214: entrada1:Group58276
+    400216: entrada1:Group58277
+    400218: entrada1:Group58278
+    400220: entrada1:Group58279
+    400222: entrada1:Group58280
+    400224: entrada1:Group58281
+    400226: entrada1:Group58282
+    400228: entrada1:Group58283
+    400230: entrada1:Group58284
+    400232: entrada1:Group58285
+    400234: entrada1:Group58286
+    400236: entrada1:Group58287
+    400238: entrada1:Group58288
+    400240: entrada1:Group58289
+    400242: entrada1:Group58290
+    400244: entrada1:Group58291
+    400246: entrada1:Group58292
+    400248: entrada1:Group58293
+    400250: entrada1:Group58294
+    400252: entrada1:Group58295
+    400254: entrada1:Group58296
+    400256: entrada1:Group58297
+    400258: entrada1:Group58298
+    400260: entrada1:Group58299
+    400262: entrada1:Group58300
+    400264: entrada1:Group58301
+    400266: entradauvbona
+    400268: Group52855
+    400270: Main Camera
+    400272: Render
+    400274: Sky
+    2300000: entrada1:Group20649
+    2300002: entrada1:Group58236
+    2300004: entrada1:Group58239
+    2300006: entrada1:Group58240
+    2300008: entrada1:Group58241
+    2300010: entrada1:Group58242
+    2300012: entrada1:Group58243
+    2300014: entrada1:Group58244
+    2300016: entrada1:Group58245
+    2300018: entrada1:Group58246
+    2300020: entrada1:Group58247
+    2300022: entrada1:Group58248
+    2300024: entrada1:Group58249
+    2300026: entrada1:Group58250
+    2300028: entrada1:Group58251
+    2300030: entrada1:Group58252
+    2300032: entrada1:Group58253
+    2300034: entrada1:Group58254
+    2300036: entrada1:Group58255
+    2300038: entrada1:Group58256
+    2300040: entrada1:Group58257
+    2300042: entrada1:Group58258
+    2300044: entrada1:Group58259
+    2300046: entrada1:Group58260
+    2300048: entrada1:Group58261
+    2300050: entrada1:Group58262
+    2300052: entrada1:Group58263
+    2300054: entrada1:Group58264
+    2300056: entrada1:Group58265
+    2300058: entrada1:Group58266
+    2300060: entrada1:Group58267
+    2300062: entrada1:Group58268
+    2300064: entrada1:Group58269
+    2300066: entrada1:Group58270
+    2300068: entrada1:Group58271
+    2300070: entrada1:Group58272
+    2300072: entrada1:Group58273
+    2300074: entrada1:Group58274
+    2300076: entrada1:Group58275
+    2300078: entrada1:Group58276
+    2300080: entrada1:Group58277
+    2300082: entrada1:Group58278
+    2300084: entrada1:Group58279
+    2300086: entrada1:Group58280
+    2300088: entrada1:Group58281
+    2300090: entrada1:Group58282
+    2300092: entrada1:Group58283
+    2300094: entrada1:Group58284
+    2300096: entrada1:Group58285
+    2300098: entrada1:Group58286
+    2300100: entrada1:Group58287
+    2300102: entrada1:Group58288
+    2300104: entrada1:Group58289
+    2300106: entrada1:Group58290
+    2300108: entrada1:Group58291
+    2300110: entrada1:Group58292
+    2300112: entrada1:Group58293
+    2300114: entrada1:Group58294
+    2300116: entrada1:Group58295
+    2300118: entrada1:Group58296
+    2300120: entrada1:Group58297
+    2300122: entrada1:Group58298
+    2300124: entrada1:Group58299
+    2300126: entrada1:Group58300
+    2300128: entrada1:Group58301
+    2300130: Group52855
+    3300000: entrada1:Group20649
+    3300002: entrada1:Group58236
+    3300004: entrada1:Group58239
+    3300006: entrada1:Group58240
+    3300008: entrada1:Group58241
+    3300010: entrada1:Group58242
+    3300012: entrada1:Group58243
+    3300014: entrada1:Group58244
+    3300016: entrada1:Group58245
+    3300018: entrada1:Group58246
+    3300020: entrada1:Group58247
+    3300022: entrada1:Group58248
+    3300024: entrada1:Group58249
+    3300026: entrada1:Group58250
+    3300028: entrada1:Group58251
+    3300030: entrada1:Group58252
+    3300032: entrada1:Group58253
+    3300034: entrada1:Group58254
+    3300036: entrada1:Group58255
+    3300038: entrada1:Group58256
+    3300040: entrada1:Group58257
+    3300042: entrada1:Group58258
+    3300044: entrada1:Group58259
+    3300046: entrada1:Group58260
+    3300048: entrada1:Group58261
+    3300050: entrada1:Group58262
+    3300052: entrada1:Group58263
+    3300054: entrada1:Group58264
+    3300056: entrada1:Group58265
+    3300058: entrada1:Group58266
+    3300060: entrada1:Group58267
+    3300062: entrada1:Group58268
+    3300064: entrada1:Group58269
+    3300066: entrada1:Group58270
+    3300068: entrada1:Group58271
+    3300070: entrada1:Group58272
+    3300072: entrada1:Group58273
+    3300074: entrada1:Group58274
+    3300076: entrada1:Group58275
+    3300078: entrada1:Group58276
+    3300080: entrada1:Group58277
+    3300082: entrada1:Group58278
+    3300084: entrada1:Group58279
+    3300086: entrada1:Group58280
+    3300088: entrada1:Group58281
+    3300090: entrada1:Group58282
+    3300092: entrada1:Group58283
+    3300094: entrada1:Group58284
+    3300096: entrada1:Group58285
+    3300098: entrada1:Group58286
+    3300100: entrada1:Group58287
+    3300102: entrada1:Group58288
+    3300104: entrada1:Group58289
+    3300106: entrada1:Group58290
+    3300108: entrada1:Group58291
+    3300110: entrada1:Group58292
+    3300112: entrada1:Group58293
+    3300114: entrada1:Group58294
+    3300116: entrada1:Group58295
+    3300118: entrada1:Group58296
+    3300120: entrada1:Group58297
+    3300122: entrada1:Group58298
+    3300124: entrada1:Group58299
+    3300126: entrada1:Group58300
+    3300128: entrada1:Group58301
+    3300130: Group52855
+    4300000: entrada1:Group20649
+    4300002: entrada1:Group58236
+    4300004: entrada1:Group58239
+    4300006: entrada1:Group58240
+    4300008: entrada1:Group58241
+    4300010: entrada1:Group58242
+    4300012: entrada1:Group58243
+    4300014: entrada1:Group58244
+    4300016: entrada1:Group58245
+    4300018: entrada1:Group58246
+    4300020: entrada1:Group58247
+    4300022: entrada1:Group58248
+    4300024: entrada1:Group58249
+    4300026: entrada1:Group58250
+    4300028: entrada1:Group58251
+    4300030: entrada1:Group58252
+    4300032: entrada1:Group58253
+    4300034: entrada1:Group58254
+    4300036: entrada1:Group58255
+    4300038: entrada1:Group58256
+    4300040: entrada1:Group58257
+    4300042: entrada1:Group58258
+    4300044: entrada1:Group58259
+    4300046: entrada1:Group58260
+    4300048: entrada1:Group58261
+    4300050: entrada1:Group58262
+    4300052: entrada1:Group58263
+    4300054: entrada1:Group58264
+    4300056: entrada1:Group58265
+    4300058: entrada1:Group58266
+    4300060: entrada1:Group58267
+    4300062: entrada1:Group58268
+    4300064: entrada1:Group58269
+    4300066: entrada1:Group58270
+    4300068: entrada1:Group58271
+    4300070: entrada1:Group58272
+    4300072: entrada1:Group58273
+    4300074: entrada1:Group58274
+    4300076: entrada1:Group58275
+    4300078: entrada1:Group58276
+    4300080: entrada1:Group58277
+    4300082: entrada1:Group58278
+    4300084: entrada1:Group58279
+    4300086: entrada1:Group58280
+    4300088: entrada1:Group58281
+    4300090: entrada1:Group58282
+    4300092: entrada1:Group58283
+    4300094: entrada1:Group58284
+    4300096: entrada1:Group58285
+    4300098: entrada1:Group58286
+    4300100: entrada1:Group58287
+    4300102: entrada1:Group58288
+    4300104: entrada1:Group58289
+    4300106: entrada1:Group58290
+    4300108: entrada1:Group58291
+    4300110: entrada1:Group58292
+    4300112: entrada1:Group58293
+    4300114: entrada1:Group58294
+    4300116: entrada1:Group58295
+    4300118: entrada1:Group58296
+    4300120: entrada1:Group58297
+    4300122: entrada1:Group58298
+    4300124: entrada1:Group58299
+    4300126: entrada1:Group58300
+    4300128: entrada1:Group58301
+    4300130: Group52855
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 87e60634e4c18dac0fd817a1dc9d6b9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (1)
+    second: {fileID: 2100000, guid: 42b50d1eacb8ebc0affa33287b4f93b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrada1_defaultMat1
+    second: {fileID: 2100000, guid: e7538b15e0bad40408c938b25ab6b3c9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
