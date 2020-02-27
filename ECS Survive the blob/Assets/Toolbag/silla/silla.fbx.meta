@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: fb05083bb36a06d55f1f28a46b59ac5f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back_Handles_LowPoly
+    100002: Back_Main_LowPoly
+    100004: Back_Metal_LowPoly
+    100006: Back_RubberSides_LowPoly
+    100008: Back_Vent_Extra_LowPoly
+    100010: Back_Vent_LowPoly
+    100012: Bottom_Main_LowPoly
+    100014: Bottom_Side_Bottom_LowPoly
+    100016: Bottom_Side_Top_LowPoly
+    100018: Default
+    100020: Default 1
+    100022: Default 10
+    100024: Default 11
+    100026: Default 12
+    100028: Default 13
+    100030: Default 14
+    100032: Default 15
+    100034: Default 16
+    100036: Default 17
+    100038: Default 18
+    100040: Default 19
+    100042: Default 2
+    100044: Default 20
+    100046: Default 21
+    100048: Default 22
+    100050: Default 23
+    100052: Default 3
+    100054: Default 4
+    100056: Default 5
+    100058: Default 6
+    100060: Default 7
+    100062: Default 8
+    100064: Default 9
+    100066: Head_Support_Arm_LowPoly
+    100068: Head_Support_LowPoly
+    100070: Leg_Connection_Bottom_LowPoly
+    100072: Leg_Connection_Square_LowPoly
+    100074: Leg_Connection_Top_LowPoly
+    100076: Leg_LowPoly
+    100078: Leg_Round_LowPoly
+    100080: LowPoly_AfterFeedback
+    100082: Main Camera
+    100084: Main_Connection_LowPoly
+    100086: Neck_Support_LowPoly
+    100088: Render
+    100090: Seat_Cushion_LowPoly
+    100092: Seat_Main_LowPoly
+    100094: Seat_RubberSide_LowPoly
+    100096: Side_Arm_Cushion_LowPoly
+    100098: Side_Arm_New_LowPoly
+    100100: Side_Cushion_LowPoly
+    100102: //RootNode
+    100104: Sky
+    400000: Back_Handles_LowPoly
+    400002: Back_Main_LowPoly
+    400004: Back_Metal_LowPoly
+    400006: Back_RubberSides_LowPoly
+    400008: Back_Vent_Extra_LowPoly
+    400010: Back_Vent_LowPoly
+    400012: Bottom_Main_LowPoly
+    400014: Bottom_Side_Bottom_LowPoly
+    400016: Bottom_Side_Top_LowPoly
+    400018: Default
+    400020: Default 1
+    400022: Default 10
+    400024: Default 11
+    400026: Default 12
+    400028: Default 13
+    400030: Default 14
+    400032: Default 15
+    400034: Default 16
+    400036: Default 17
+    400038: Default 18
+    400040: Default 19
+    400042: Default 2
+    400044: Default 20
+    400046: Default 21
+    400048: Default 22
+    400050: Default 23
+    400052: Default 3
+    400054: Default 4
+    400056: Default 5
+    400058: Default 6
+    400060: Default 7
+    400062: Default 8
+    400064: Default 9
+    400066: Head_Support_Arm_LowPoly
+    400068: Head_Support_LowPoly
+    400070: Leg_Connection_Bottom_LowPoly
+    400072: Leg_Connection_Square_LowPoly
+    400074: Leg_Connection_Top_LowPoly
+    400076: Leg_LowPoly
+    400078: Leg_Round_LowPoly
+    400080: LowPoly_AfterFeedback
+    400082: Main Camera
+    400084: Main_Connection_LowPoly
+    400086: Neck_Support_LowPoly
+    400088: Render
+    400090: Seat_Cushion_LowPoly
+    400092: Seat_Main_LowPoly
+    400094: Seat_RubberSide_LowPoly
+    400096: Side_Arm_Cushion_LowPoly
+    400098: Side_Arm_New_LowPoly
+    400100: Side_Cushion_LowPoly
+    400102: //RootNode
+    400104: Sky
+    2300000: Back_Handles_LowPoly
+    2300002: Back_Main_LowPoly
+    2300004: Back_Metal_LowPoly
+    2300006: Back_RubberSides_LowPoly
+    2300008: Back_Vent_Extra_LowPoly
+    2300010: Back_Vent_LowPoly
+    2300012: Bottom_Main_LowPoly
+    2300014: Bottom_Side_Bottom_LowPoly
+    2300016: Bottom_Side_Top_LowPoly
+    2300018: Head_Support_Arm_LowPoly
+    2300020: Head_Support_LowPoly
+    2300022: Leg_Connection_Bottom_LowPoly
+    2300024: Leg_Connection_Square_LowPoly
+    2300026: Leg_Connection_Top_LowPoly
+    2300028: Leg_LowPoly
+    2300030: Leg_Round_LowPoly
+    2300032: Main_Connection_LowPoly
+    2300034: Neck_Support_LowPoly
+    2300036: Seat_Cushion_LowPoly
+    2300038: Seat_Main_LowPoly
+    2300040: Seat_RubberSide_LowPoly
+    2300042: Side_Arm_Cushion_LowPoly
+    2300044: Side_Arm_New_LowPoly
+    2300046: Side_Cushion_LowPoly
+    3300000: Back_Handles_LowPoly
+    3300002: Back_Main_LowPoly
+    3300004: Back_Metal_LowPoly
+    3300006: Back_RubberSides_LowPoly
+    3300008: Back_Vent_Extra_LowPoly
+    3300010: Back_Vent_LowPoly
+    3300012: Bottom_Main_LowPoly
+    3300014: Bottom_Side_Bottom_LowPoly
+    3300016: Bottom_Side_Top_LowPoly
+    3300018: Head_Support_Arm_LowPoly
+    3300020: Head_Support_LowPoly
+    3300022: Leg_Connection_Bottom_LowPoly
+    3300024: Leg_Connection_Square_LowPoly
+    3300026: Leg_Connection_Top_LowPoly
+    3300028: Leg_LowPoly
+    3300030: Leg_Round_LowPoly
+    3300032: Main_Connection_LowPoly
+    3300034: Neck_Support_LowPoly
+    3300036: Seat_Cushion_LowPoly
+    3300038: Seat_Main_LowPoly
+    3300040: Seat_RubberSide_LowPoly
+    3300042: Side_Arm_Cushion_LowPoly
+    3300044: Side_Arm_New_LowPoly
+    3300046: Side_Cushion_LowPoly
+    4300000: Back_Handles_LowPoly
+    4300002: Back_Main_LowPoly
+    4300004: Back_Metal_LowPoly
+    4300006: Back_Vent_Extra_LowPoly
+    4300008: Bottom_Main_LowPoly
+    4300010: Bottom_Side_Bottom_LowPoly
+    4300012: Bottom_Side_Top_LowPoly
+    4300014: Head_Support_Arm_LowPoly
+    4300016: Head_Support_LowPoly
+    4300018: Leg_Connection_Square_LowPoly
+    4300020: Leg_Connection_Top_LowPoly
+    4300022: Leg_LowPoly
+    4300024: Leg_Round_LowPoly
+    4300026: Main_Connection_LowPoly
+    4300028: Neck_Support_LowPoly
+    4300030: Seat_Cushion_LowPoly
+    4300032: Seat_Main_LowPoly
+    4300034: Seat_RubberSide_LowPoly
+    4300036: Side_Arm_Cushion_LowPoly
+    4300038: Side_Arm_New_LowPoly
+    4300040: Side_Cushion_LowPoly
+    4300042: Back_Vent_LowPoly
+    4300044: Leg_Connection_Bottom_LowPoly
+    4300046: Back_RubberSides_LowPoly
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 695a110bdef1b007b1aec2d496b6dd0a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

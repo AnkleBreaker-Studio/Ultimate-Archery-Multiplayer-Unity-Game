@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 864d2943a2cc54262287f22aa5517973
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: baba
+    100002: //RootNode
+    100004: Default
+    100006: defaultMat
+    100008: defaultMat 1
+    100010: defaultMat 2
+    100012: defaultMat 3
+    100014: defaultMat 4
+    100016: defaultMat 5
+    100018: defaultMat 6
+    100020: defaultMat 7
+    100022: defaultMat 8
+    100024: defi
+    100026: dientegordo1
+    100028: dientegordo2
+    100030: dientes
+    100032: Group12113
+    100034: Group12113 Copy
+    100036: Group16746
+    100038: Group20327
+    100040: Group20327_MeshPart0
+    100042: Group20327_MeshPart1
+    100044: Group20950
+    100046: Group30327
+    100048: Group385
+    100050: Group385 1
+    100052: Group40327
+    100054: Group57148
+    100056: Light 1
+    100058: Light 1 Copy
+    100060: low
+    100062: Main Camera
+    100064: ojo
+    100066: parpado
+    100068: PolySphere
+    100070: Render
+    100072: Sky
+    400000: baba
+    400002: //RootNode
+    400004: Default
+    400006: defaultMat
+    400008: defaultMat 1
+    400010: defaultMat 2
+    400012: defaultMat 3
+    400014: defaultMat 4
+    400016: defaultMat 5
+    400018: defaultMat 6
+    400020: defaultMat 7
+    400022: defaultMat 8
+    400024: defi
+    400026: dientegordo1
+    400028: dientegordo2
+    400030: dientes
+    400032: Group12113
+    400034: Group12113 Copy
+    400036: Group16746
+    400038: Group20327
+    400040: Group20327_MeshPart0
+    400042: Group20327_MeshPart1
+    400044: Group20950
+    400046: Group30327
+    400048: Group385
+    400050: Group385 1
+    400052: Group40327
+    400054: Group57148
+    400056: Light 1
+    400058: Light 1 Copy
+    400060: low
+    400062: Main Camera
+    400064: ojo
+    400066: parpado
+    400068: PolySphere
+    400070: Render
+    400072: Sky
+    2300000: Group12113
+    2300002: Group12113 Copy
+    2300004: Group16746
+    2300006: Group20327_MeshPart0
+    2300008: Group20327_MeshPart1
+    2300010: Group20950
+    2300012: Group30327
+    2300014: Group385
+    2300016: Group385 1
+    2300018: Group40327
+    2300020: Group57148
+    3300000: Group12113
+    3300002: Group12113 Copy
+    3300004: Group16746
+    3300006: Group20327_MeshPart0
+    3300008: Group20327_MeshPart1
+    3300010: Group20950
+    3300012: Group30327
+    3300014: Group385
+    3300016: Group385 1
+    3300018: Group40327
+    3300020: Group57148
+    4300000: Group57148
+    4300002: Group385
+    4300004: Group385
+    4300006: Group20950
+    4300008: Group12113
+    4300010: Group12113 Copy
+    4300012: Group20327_MeshPart0
+    4300014: Group20327_MeshPart1
+    4300016: Group30327
+    4300018: Group40327
+    4300020: Group16746
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 22a70365abb0b8e8f15e85622fc4d49e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default (1)
+    second: {fileID: 2100000, guid: 39d0bdb57dfb3ad9dc26b737b9ab11cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat
+    second: {fileID: 2100000, guid: 6c37dd509aa10b9f0788c453dc32af18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat (1)
+    second: {fileID: 2100000, guid: 480539cf5f4f7bf5910b035b4e9aeaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: defaultMat (1) (1)
+    second: {fileID: 2100000, guid: e17d3e1ee4e2025a1f508a0a3a585906, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

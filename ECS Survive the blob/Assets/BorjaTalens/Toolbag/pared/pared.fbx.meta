@@ -3,22 +3,20 @@ guid: 9c53420e502a2cbe36bb7c230ca5d3c3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: decoracion1
-    100002: lambert1
-    100004: Main Camera
-    100006: //RootNode
+    100000: lambert1
+    100002: Main Camera
+    100004: //RootNode
+    100006: pared
     100008: pPlane1
     100010: Render
     100012: Sky
-    100014: suelo
-    400000: decoracion1
-    400002: lambert1
-    400004: Main Camera
-    400006: //RootNode
+    400000: lambert1
+    400002: Main Camera
+    400004: //RootNode
+    400006: pared
     400008: pPlane1
     400010: Render
     400012: Sky
-    400014: suelo
     2300000: pPlane1
     3300000: pPlane1
     4300000: pPlane1

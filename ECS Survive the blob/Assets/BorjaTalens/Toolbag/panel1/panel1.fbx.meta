@@ -3,30 +3,53 @@ guid: d784e1553ad1cefad768df3a8c7c5144
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: defaultMat
-    100002: Group49495
-    100004: Main Camera
-    100006: //RootNode
-    100008: panel1
-    100010: Render
-    100012: Sky
-    400000: defaultMat
-    400002: Group49495
-    400004: Main Camera
-    400006: //RootNode
-    400008: panel1
-    400010: Render
-    400012: Sky
-    2300000: Group49495
-    3300000: Group49495
-    4300000: Group49495
+    100000: lambert2
+    100002: lambert2 1
+    100004: lambert2 2
+    100006: lambert2 3
+    100008: Main Camera
+    100010: panel1
+    100012: //RootNode
+    100014: paredwapa
+    100016: Render
+    100018: Sky
+    100020: Wall_12:Object013
+    100022: Wall_12:Object015
+    100024: Wall_12:Object055
+    100026: Wall_12:Object057
+    400000: lambert2
+    400002: lambert2 1
+    400004: lambert2 2
+    400006: lambert2 3
+    400008: Main Camera
+    400010: //RootNode
+    400012: panel1
+    400014: paredwapa
+    400016: Render
+    400018: Sky
+    400020: Wall_12:Object013
+    400022: Wall_12:Object015
+    400024: Wall_12:Object055
+    400026: Wall_12:Object057
+    2300000: Wall_12:Object013
+    2300002: Wall_12:Object015
+    2300004: Wall_12:Object055
+    2300006: Wall_12:Object057
+    3300000: Wall_12:Object013
+    3300002: Wall_12:Object015
+    3300004: Wall_12:Object055
+    3300006: Wall_12:Object057
+    4300000: Wall_12:Object013
+    4300002: Wall_12:Object015
+    4300004: Wall_12:Object055
+    4300006: Wall_12:Object057
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Default
-    second: {fileID: 2100000, guid: e1e9d0b145658b723df8eef69151379f, type: 2}
+      name: 1 -_
+    second: {fileID: 2100000, guid: 37bf0049c4a440148a356db489d8a097, type: 2}
   materials:
     importMaterials: 1
     materialName: 1

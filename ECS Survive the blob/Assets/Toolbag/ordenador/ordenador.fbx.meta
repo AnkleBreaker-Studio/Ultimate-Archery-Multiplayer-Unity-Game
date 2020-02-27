@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 2a57bd4626d42df562096581c845960c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Computer
+    100002: g pCube1_pCube1
+    100004: g pCube2_pCube2
+    100006: g pCube3_pCube3
+    100008: initialShadingGroup
+    100010: lambert2SG
+    100012: lambert3SG
+    100014: lambert3SG 1
+    100016: Main Camera
+    100018: //RootNode
+    100020: Render
+    100022: Sky
+    400000: Computer
+    400002: g pCube1_pCube1
+    400004: g pCube2_pCube2
+    400006: g pCube3_pCube3
+    400008: initialShadingGroup
+    400010: lambert2SG
+    400012: lambert3SG
+    400014: lambert3SG 1
+    400016: Main Camera
+    400018: //RootNode
+    400020: Render
+    400022: Sky
+    2300000: g pCube1_pCube1
+    2300002: g pCube2_pCube2
+    2300004: g pCube3_pCube3
+    3300000: g pCube1_pCube1
+    3300002: g pCube2_pCube2
+    3300004: g pCube3_pCube3
+    4300000: g pCube3_pCube3
+    4300002: g pCube1_pCube1
+    4300004: g pCube2_pCube2
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: fa47416ca8a66b871a57e60967f17fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: ed7fe9b93362ad5ca5d1e64ac6ca32f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3SG
+    second: {fileID: 2100000, guid: 53ad33449a409da9c4bec79cabe2c52b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
